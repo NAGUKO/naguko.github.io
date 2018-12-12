@@ -250,7 +250,7 @@ a img.aligncenter {
     padding-left:3rem;
   }
 }
-/* -------edit------*/
+/* -------edit
 @media (max-width: 480px) {
   #ngk-page{
     padding-top: 10px;
@@ -292,4 +292,4 @@ a img.aligncenter {
   flex-direction: column;
   }
 }
-
+------*/
