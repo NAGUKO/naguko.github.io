@@ -1,0 +1,252 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-family: Roboto, sans-serif;
+  font-size:1.5rem;
+  font-weight:300;
+  line-height:3;
+  color:#ffffff;
+  overflow-x:hidden;
+
+  text-align:center;
+  padding:0 0px;
+  height:100%;
+}
+
+
+html{
+  height: 100%;
+  margin-top: 0 ;
+}
+
+
+
+.ngk h1, .ngk h2, .ngk h3, .ngk h4, .ngk h5, .ngk h6{
+        font-family: 'Roboto';
+        color:#ffffff;
+    }
+
+#ngk-headline{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: ;
+    font-size: 1em;
+    color:#ffffff;
+    line-height: 2.00em;
+    margin-top:0;
+}
+
+
+#ngk-page{
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:10px;
+  padding-right:10px;
+  min-height: 100%;
+}
+
+
+.flexbox #ngk-content{
+  margin:0;
+}
+
+
+
+
+/* Margins */
+#ngk-description,#ngk-logo, #ngk-socialprofiles{
+  margin-bottom:24px;
+  font-size: 18px;
+}
+
+/* Responsive Images */
+#ngk-description img, #ngk-logo{
+  max-width: 800px;
+  height:auto;
+  margin: auto;
+
+}
+
+/* Content Elements */
+#ngk-content{
+  width:100%;
+  margin:0 auto;
+}
+
+/* Social Profiles */
+#ngk-socialprofiles a{
+  padding-right:7px;
+  display:inline-block;
+
+}
+
+#ngk-content ul {
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+
+
+
+
+.v-header{
+  height:100vh;
+
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background:#3c4047;
+  opacity:0.6;
+}
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:40px;
+  margin-bottom:0;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  padding-bottom:2rem;
+}
+
+.btn{
+  background: #34b3a0;
+  color:#fff;
+  font-size:1.1rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.section{
+  padding:20px 0;
+}
+
+.section-b{
+  background:#333;
+  color:#fff;
+}
+
+
+
+
+#ngk-socialprofiles a {
+    color: #ffffff;
+}
+
+
+/* General styles for individual controls. */
+.vjs-default-skin .vjs-control {
+  outline: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 3.0em;
+  width: 4em;
+}
+/* FontAwsome button icons */
+.vjs-default-skin .vjs-control:before {
+  font-family: VideoJS;
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* Replacement for focus outline */
+.vjs-default-skin .vjs-control:focus:before,
+.vjs-default-skin .vjs-control:hover:before {
+  text-shadow: 0em 0em 1em #ffffff;
+}
+.vjs-default-skin .vjs-control:focus {
+  /*  outline: 0; */
+  /* keyboard-only users cannot see the focus on several of the UI elements when
+  this is set to 0 */
+
+}
+/* Hide control text visually, but have it available for screenreaders */
+.vjs-default-skin .vjs-control-text {
+  /* hide-visually */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
