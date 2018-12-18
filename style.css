@@ -108,6 +108,18 @@ body{
     color: #ffffff;
 }
 
+/* Footer Credit */
+#ngk-credit{
+  font-size:12px;
+  position: fixed;
+  bottom:0;
+  right:20px;
+  background-color: rgba(0,0,0,0.75);
+  padding:7px;
+  border-radius:3px;
+  line-height: 1;
+  color: #fff;
+}
 
 @media(max-width:870px){
   .container{
