@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 
    <!-- Google Fonts -->
-  <link class="gf-headline" href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=' rel='stylesheet' type='text/css'>
+  <link class="gf-headline" href='https://fonts.googleapis.com/css?family=Roboto:300,400&subset=' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -19,8 +19,12 @@
   <header class="v-header container">
     <div class="fullscreen-video-wrap">
       
-      <video src="robot.mp4" autoplay="true" loop="true">
-    </video>
+      <!--video src="robot.mp4" autoplay="true" loop="true"-->
+      <video poster="robot.png" id="Robot Video" playsinline autoplay muted loop>
+      <source src="robot.webm" type="video/webm">
+      <source src="robot.mp4" type="video/mp4">
+      </video>
+    
     </div>
     <div class="header-overlay"></div>
     <div class="header-content text-md-center">
@@ -36,9 +40,13 @@
       </div> 
     </div>
   </header>
-  <div id="ngk-credit">
-  <span> Video created together with Praxis|D2M Group </span></div>
-</body>
+
+
+  
+ <div id="ngk-credit">
+ <span> Video created together with Praxis|D2M Group
+ </span></div>
+ </body>
 </html>
 
 
