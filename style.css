@@ -59,7 +59,9 @@ a:hover{
 /* Styles */
 
 
-
+.fa-2x {
+    font-size: 1.6em !important;
+}
 
 *{
   box-sizing: border-box;
@@ -128,7 +130,7 @@ body{
 }
 
 .header-content p{
-  font-size:1.5rem;
+  font-size:1.2rem;
   display:block;
   /* padding-bottom:2rem; */
   margin-left: auto; 
@@ -162,7 +164,7 @@ body{
 
 /* Responsive Images */
 #ngk-description img, #ngk-logo{
-  max-width: 800px;
+  max-width: 550px;
   height:auto;
   margin: auto;
 
